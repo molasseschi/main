@@ -1,0 +1,36 @@
+div#main{
+}
+div#form_sample{
+}
+#main h1{
+}
+hr{
+margin-top:-5px
+}
+label{
+}
+input[type=text], select, textarea {
+  width: 100%;
+  background-color: #ccc;
+  padding: 5px;
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #bbb;
+  color: #000;
+  padding: 5px 20px;
+  border: none;
+  cursor: crosshair;
+}
+input[type=submit]:hover {
+  background-color: #787878;
+  cursor: crosshair;
+}
+.container {
+  background-color: #aaa;
+  padding: 20px;
+}

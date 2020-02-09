@@ -1,0 +1,60 @@
+html body,
+html body * {
+  box-sizing: border-box;
+}
+body {
+  font-family: garamond;
+  margin: 0;
+  background: #bbb
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #bbb;
+}
+.navbar a {
+  color: #000;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  text-decoration: line-through;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.side {
+  flex: 1;
+  padding: 20px;
+}
+.center {
+  width: 50%;
+  padding: 20px;
+  justify-content: center;
+}
+.main {
+  width: 60%;
+  padding: 20px;
+}
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
